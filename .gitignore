@@ -1,0 +1,25 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Environments
+venv/
+env/
+ENV/
+.env
+
+# Vectorstore binaries
+vectorstore/faiss_index/
+
+# Node & Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+.DS_Store
+
+# Logs
+*.log

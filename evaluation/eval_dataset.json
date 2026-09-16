@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "question": "What should be checked when an EV reports repeated battery overheating?",
+    "expected_document": "bmw_ev_battery_service.pdf",
+    "expected_topic": "Coolant loop circulation pump M50, coolant fluid level, 3-way solenoid valve, thermal interface material, ISTA cell balancing readout",
+    "is_in_domain": true
+  },
+  {
+    "id": 2,
+    "question": "What precautions and PPE apply before working on the high-voltage system?",
+    "expected_document": "bmw_high_voltage_safety.pdf",
+    "expected_topic": "Class 0 1000V rated insulated safety gloves, outer leather gloves, arc flash face shield, non-conductive cotton apparel",
+    "is_in_domain": true
+  },
+  {
+    "id": 3,
+    "question": "How is the 3-Point Voltage-Free Verification Test performed on BMW HV systems?",
+    "expected_document": "bmw_high_voltage_safety.pdf",
+    "expected_topic": "CAT IV 1000V multimeter test live source, HV pos to ground, HV neg to ground, HV pos to neg (<5.0V DC), recheck live source",
+    "is_in_domain": true
+  },
+  {
+    "id": 4,
+    "question": "What symptoms and diagnostic steps apply to cooling system issues?",
+    "expected_document": "bmw_cooling_system.pdf",
+    "expected_topic": "High electric motor temp fault, degraded A/C battery chilling, radiator shuttle valve flaps, vacuum bleeding tool 17 0 020",
+    "is_in_domain": true
+  },
+  {
+    "id": 5,
+    "question": "What does fault code 21F004 indicate in ISTA diagnostics?",
+    "expected_document": "bmw_diagnostics.pdf",
+    "expected_topic": "High Voltage Battery Cell Temperature Exceeded Limit",
+    "is_in_domain": true
+  },
+  {
+    "id": 6,
+    "question": "What is the specified torque for battery module busbar M6 fasteners?",
+    "expected_document": "bmw_ev_battery_service.pdf",
+    "expected_topic": "9.5 Nm ± 0.5 Nm",
+    "is_in_domain": true
+  },
+  {
+    "id": 7,
+    "question": "What diagnostic step is required for fault code 21F08A?",
+    "expected_document": "bmw_diagnostics.pdf",
+    "expected_topic": "Battery Coolant Switching Valve Actuation Fault, inspect connector X14*1B",
+    "is_in_domain": true
+  },
+  {
+    "id": 8,
+    "question": "Why must coolant refilling use vacuum evacuation on BMW EV cooling circuits?",
+    "expected_document": "bmw_cooling_system.pdf",
+    "expected_topic": "Manual refill leaves air pockets causing localized thermal runaway; use BMW Special Tool 17 0 020",
+    "is_in_domain": true
+  },
+  {
+    "id": 9,
+    "question": "What steps must be followed to de-energize the high-voltage system?",
+    "expected_document": "bmw_high_voltage_safety.pdf",
+    "expected_topic": "Turn off ignition, disconnect 12V ground, remove HV service disconnect plug, LOTO safety lock, wait 5 min capacitor discharge",
+    "is_in_domain": true
+  },
+  {
+    "id": 10,
+    "question": "What is the recommended tire pressure and stereo wiring diagram for a 1988 BMW E30?",
+    "expected_document": "None",
+    "expected_topic": "No-answer handling fallback: insufficient documentation",
+    "is_in_domain": false
+  }
+]
